@@ -1,0 +1,14 @@
+{
+  "name": "api-app-wallet",
+  "version": "1.0.0",
+  "description": "API using Node.js and Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alisson GAbriel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
