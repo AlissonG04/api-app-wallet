@@ -1,4 +1,3 @@
-const { response } = require("express");
 const express = require("express");
 const db = require("./db");
 const routerCategories = require("./router/categories");
