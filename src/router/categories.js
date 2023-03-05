@@ -98,7 +98,7 @@ router.put("/:id", async (req, res) => {
       return res.status(404).json({ error: "Category not found." });
     }
 
-    const text = "UPDATE catagories SET name=$1 WHERE id=$2 RETURNING *";
+    const text = "UPDATE categories SET name=$1 WHERE id=$2 RETURNING *";
     const values = [name, Number(id)];
 
     const updateResponse = await db.query(text, values);
