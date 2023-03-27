@@ -19,7 +19,7 @@ router.post("/", async (req, res) => {
         .json({ error: "Name should have more than 3 characters." });
     }
 
-    if (email.length < 5 || !email.includs("@")) {
+    if (email.length < 5 || !email.includes("@")) {
       return res.status(400).json({ error: "E-mail is invalid." });
     }
 
@@ -42,7 +42,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-router.put("/:id", async (req, res) => {
+router.put("/", async (req, res) => {
   try {
     const oldEmail = req.headers.email;
     const { name, email } = req.body;
@@ -52,7 +52,7 @@ router.put("/:id", async (req, res) => {
         .json({ error: "Name should have more than 3 characters." });
     }
 
-    if (email.length < 5 || !email.includs("@")) {
+    if (email.length < 5 || !email.includes("@")) {
       return res.status(400).json({ error: "E-mail id invalid." });
     }
 
