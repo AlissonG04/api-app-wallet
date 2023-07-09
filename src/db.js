@@ -8,5 +8,4 @@ const db = new Pool({
   port: 5432,
 });
 
-//Expotação do modulo
 module.exports = db;
