@@ -9,6 +9,11 @@ This is an API created using Node.js, Express and PostgresSQL.
 -Node.js
 -Docker
 
+## Documentation:
+
+Use insomnia to import the file bellow:
+https://github.com/AlissonG04/api-app-wallet/blob/main/Insomnia.json
+
 ## Steps tp run the project
 
 1. Clone the project
@@ -59,8 +64,3 @@ npm run start:dev
 ```
 npm run start
 ```
-
-# Documentation:
-
-Use insomnia to import the file bellow:
-https://github.com/AlissonG04/api-app-wallet/blob/main/Insomnia.json
