@@ -4,7 +4,8 @@
   "description": "API using Node.js and Postgres",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js",
+    "start": "node src/index.js",
+    "start:dev": "nodemon ./src/index.js",
     "config:init": "node src/config/init.js"
   },
   "author": "Alisson Gabriel",
